@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Previewer</title>
+
+    <!-- Stylesheet Linkage -->
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <button onclick="clearText()">Clear</button>
+    <div class="container">
+        <textarea id="markdownInput" placeholder="Type Markdown here..."></textarea>
+        <div class="preview" id="preview"></div>
+    </div>
+
+    <!-- JS Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="markdown.js"></script>
+</body>
+</html>
